@@ -1,13 +1,13 @@
 # 📈 Black-Scholes Option Pricing Analysis
 
-This repository contains a Jupyter notebook that explores the behavior of **European call and put option prices** using the **Black-Scholes model**. The analysis is part of the *Mini Project 3* for the course:
+This repository contains a Jupyter notebook that explores the behavior of **European call and put option prices** using the **Black Scholes model**. The analysis is part of the *Mini Project 3* for the course:
 
 **2025 Introduction to Quantitative Methods in Finance**  
 **Erdös Institute**
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 The notebook investigates:
 
@@ -18,24 +18,24 @@ The notebook investigates:
 
 ---
 
-## 📂 Files
+##  Files
 
-- `Black-Scholes_Option_Analysis.ipynb` – Main analysis notebook  
+- `Mini project 3 final.ipynb` – Main analysis notebook  
 - `README.md` – This overview file  
 
 ---
 
-## 📊 Key Concepts
+## Key Concepts
 
 - **Call Option:** Right to buy the asset at strike price before expiration  
 - **Put Option:** Right to sell the asset at strike price before expiration  
 - **Theta:** Measures time decay of option value  
 - **Delta:** Measures sensitivity to changes in the underlying asset price  
-- **Black-Scholes Formula:** Analytical pricing model for European options  
+- **Black Scholes Formula:** Analytical pricing model for European options  
 
 ---
 
-## 📷 Sample Visualizations
+##  Sample Visualizations
 
 Plots in the notebook include:
 - Option price vs. time to expiration
@@ -44,27 +44,13 @@ Plots in the notebook include:
 
 ---
 
-## 🚀 Getting Started
+##  Author
 
-To run this notebook:
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Open `Black-Scholes_Option_Analysis.ipynb` in Jupyter or VS Code.
-
-3. Run all cells to reproduce the analysis.
+- Amey Gaikwad  
+- [LinkedIn](www.linkedin.com/in/amey-gaikwad-9587392a7) | [Email](ameypg@physics.ucla.edu)
 
 ---
 
-## 📌 Author
-
-- Your Name  
-- [LinkedIn](#) | [Email](#)
-
----
-
-## 📜 License
+## License
 
 This project is for educational purposes as part of the Erdös Institute curriculum.
