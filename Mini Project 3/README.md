@@ -7,31 +7,44 @@ This repository contains a Jupyter notebook that explores the behavior of **Euro
 
 ---
 
-##  Project Overview
 
-The notebook investigates:
+##  Objective
 
-- How option prices vary with **time to expiration**
-- How option prices respond to **changes in the initial stock price ($S_0$)**
-- The numerical calculation of **Theta** and **Delta** (rates of change)
-- Visual interpretation of pricing behavior
+The primary goal is to analyze how option prices respond to changes in two critical inputs:
 
----
+- **Time to expiration**  
+- **Initial stock price** ($S_0$)
 
-##  Files
-
-- `Mini project 3 final.ipynb` – Main analysis notebook  
-- `README.md` – This overview file  
+This project helps build intuition around **option sensitivity metrics** like **Theta** (time decay) and **Delta** (price sensitivity).
 
 ---
 
-## Key Concepts
+##  Task Breakdown
 
-- **Call Option:** Right to buy the asset at strike price before expiration  
-- **Put Option:** Right to sell the asset at strike price before expiration  
-- **Theta:** Measures time decay of option value  
-- **Delta:** Measures sensitivity to changes in the underlying asset price  
-- **Black Scholes Formula:** Analytical pricing model for European options  
+The assignment consists of four parts:
+
+### **a)** Time Sensitivity of Call Options  
+- Visualize how the **Black-Scholes call option price** changes with time to expiration.  
+- Interpret how the **rate of change** (Theta) behaves as expiration approaches.
+
+### **b)** Spot Price Sensitivity of Call Options  
+- Analyze how the **call option price** responds to different initial stock prices $S_0$.  
+- Visualize and interpret the **rate of change** (Delta) with respect to $S_0$.
+
+### **c)** Repeat (a) and (b) for **Put Options**  
+- Generate the same visualizations and interpretations for **put option prices**.
+
+### **d)** Observations and Reflections  
+- Summarize key takeaways from the visual analyses.  
+- Compare the behavior of calls and puts with respect to time and spot price sensitivity.
+
+---
+
+##  Deliverables
+
+-  A fully annotated Jupyter notebook 
+-  Graphs showing option value sensitivity to time and price  
+-  Observations using **numerically computed rates of change theta and delta**
 
 ---
 
