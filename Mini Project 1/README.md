@@ -3,6 +3,9 @@
 
 A comparative analysis of low-risk and high-risk investment strategies using historical market data and quantitative optimization techniques.
 
+**2025 Introduction to Quantitative Methods in Finance**  
+**Erdös Institute**
+
 ---
 
 ## Objectives
