@@ -20,15 +20,15 @@ This project investigates the following key questions:
 
 - **Data Source:** Yahoo Finance (via `yfinance` library)
 - **Period Analyzed:** Primarily 2023–2024 and 2020–2025 depending on section
-- **Instruments:** S&P 500 ETF (VOO), major ETFs and stocks, low-risk and high-risk portfolios
+- **Instruments:** S&P 500 ETF (VOO), major ETFs and stocks, low risk and high risk portfolios
 - **Statistical Test Used:** D’Agostino–Pearson normality test (`scipy.stats.normaltest`)
-- **Visualization:** Probability plots (Q-Q plots) to assess deviation from normality
+- **Visualization:** Probability plots (QQ plots) to assess deviation from normality
 
 ## Key Findings
 
 - **Time Sensitivity:** Log returns may appear normally distributed during calm market periods but fail normality tests during volatile periods.
-- **Diversification Matters:** Broad-based ETFs and well-balanced portfolios tend to exhibit more normal-like return distributions.
-- **Portfolio Effects:** Both low-risk and high-risk portfolios may pass normality tests in the short term, but diverge over longer horizons.
+- **Diversification Matters:** Broad based ETFs and well balanced portfolios tend to exhibit more normal like return distributions.
+- **Portfolio Effects:** Both low risk and high risk portfolios may pass normality tests in the short term, but diverge over longer horizons.
 - **Stock Universe Screening:** A small fraction of S&P 500 constituents exhibit return distributions that do not reject normality, offering candidates for Gaussian-based modeling.
 
 
