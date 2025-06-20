@@ -38,7 +38,7 @@ A comparative analysis of low-risk and high-risk investment strategies using his
 
 ## Deliverables
 
-- **Jupyter Notebook (`portfolio_optimization.ipynb`)**  
+- **Jupyter Notebook (`MiniProject1 .ipynb`)**  
   Contains all code, commentary, visualizations, optimization routines, and results.
 
 - **README.md**  
