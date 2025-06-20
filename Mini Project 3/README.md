@@ -44,13 +44,6 @@ Plots in the notebook include:
 
 ---
 
-##  Author
-
-- Amey Gaikwad  
-- [LinkedIn](www.linkedin.com/in/amey-gaikwad-9587392a7) | [Email](ameypg@physics.ucla.edu)
-
----
-
 ## License
 
 This project is for educational purposes as part of the Erdös Institute curriculum.
