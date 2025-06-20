@@ -1,5 +1,8 @@
 # Hypothesis Testing of Standard Assumptions in Theoretical Financial Mathematics
 
+**2025 Introduction to Quantitative Methods in Finance**  
+**Erdös Institute**
+
 ## Project Overview
 
 In mathematical finance, it is commonly assumed that the log returns of financial assets are normally distributed. This project critically evaluates that assumption using historical market data for individual stocks, ETFs, and constructed portfolios.
