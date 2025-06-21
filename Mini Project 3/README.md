@@ -1,6 +1,6 @@
-#  Black-Scholes Option Pricing Analysis
+#  Mini Project 3 : Black-Scholes Option Pricing Analysis
 
-This repository contains a Jupyter notebook that explores the behavior of **European call and put option prices** using the **Black Scholes model**. The analysis is part of the *Mini Project 3* for the course:
+This repository contains a Jupyter notebook that explores the behavior of **European call and put option prices** using the **Black Scholes model**. 
 
 **2025 Introduction to Quantitative Methods in Finance**  
 **Erdös Institute**
