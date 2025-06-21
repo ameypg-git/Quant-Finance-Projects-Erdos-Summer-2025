@@ -1,4 +1,4 @@
-# Hypothesis Testing of Standard Assumptions in Theoretical Financial Mathematics
+# Mini Project 2 : Hypothesis Testing of Standard Assumptions in Theoretical Financial Mathematics
 
 **2025 Introduction to Quantitative Methods in Finance**  
 **Erdös Institute**
