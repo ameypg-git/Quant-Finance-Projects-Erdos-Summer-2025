@@ -1,7 +1,7 @@
 # Mini Project 4: Delta and Sigma Hedging under Stochastic Volatility
 
-**Course**: Introduction to Quantitative Methods in Finance (2025)  
-**Institution**: The Erdös Institute  
+**2025 Introduction to Quantitative Methods in Finance**  
+**Erdös Institute**
 
 ---
 
