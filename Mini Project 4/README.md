@@ -1,58 +1,74 @@
 # Mini Project 4: Delta and Sigma Hedging under Stochastic Volatility
 
 **Course**: Introduction to Quantitative Methods in Finance (2025)  
-**Institution**: The Erdös Institute
-
-## Overview
-
-This project explores how non-constant volatility affects the performance of hedging strategies in options trading. Specifically, we simulate and evaluate:
-
-- **Delta Hedging**: Hedging price risk by dynamically adjusting exposure to the underlying asset.
-- **Sigma (Vega) Hedging**: Reducing volatility exposure using a call spread (selling one call, buying another).
-  
-We compare these strategies under two volatility models:
-
-1. **Toy Model**: Geometric Brownian motion with discrete, randomly varying volatility.
-2. **Heston Model**: A realistic stochastic volatility framework where volatility evolves continuously.
+**Institution**: The Erdös Institute  
 
 ---
 
-## Contents
+## Objective
 
-- `functions.py`: Contains utility functions for Black-Scholes greeks, simulation, and hedging logic.
-- `MiniProject4.ipynb`: Main notebook demonstrating simulations, visualizations, and analysis.
-- `/images`: Histogram plots and comparison visuals for both models.
+To understand how **time-varying volatility** impacts the effectiveness of different hedging strategies in option pricing and risk management. We implement and compare **delta-only** and **sigma (vega) hedging** approaches under both a simple stochastic volatility setup and the more realistic **Heston model**.
 
 ---
 
-## Key Findings
+## Task Breakdown
 
-- In the **toy model**, sigma hedging significantly reduces both risk and hedging error, outperforming delta-only hedging.
-- Under the **Heston model**, both strategies perform well, but sigma hedging marginally improves pricing accuracy.
-- Volatility risk is meaningful — incorporating vega hedging improves replication even in simplified markets.
+### 1. Simulate Stock Paths
+- **Toy Model**: Geometric Brownian motion with stepwise random volatility (σ ∈ {0.2, 0.3, 0.45}).
+- **Heston Model**: Stochastic volatility simulated with mean-reversion, volatility of volatility, and correlation to asset returns.
 
----
+### 2. Implement Hedging Strategies
+- **Delta Hedging**: Adjusts portfolio delta at each time step using estimated sigma.
+- **Sigma Hedging**: Adds vega neutrality by constructing call spreads (short and long options).
 
-## How to Run
-
-1. Ensure Python 3.x environment with the following libraries:
-   - `numpy`
-   - `matplotlib`
-   - `pandas`
-   - `seaborn`
-2. Run `MiniProject4.ipynb` in Jupyter Lab or Notebook.
-3. Output plots and hedging performance will be shown for both models.
+### 3. Evaluate Performance
+- Simulate profit and loss (P&L) distributions under each strategy.
+- Analyze sensitivity to hedge frequency (1 to 252 times/year).
+- Compare simulated vs. theoretical option prices.
 
 ---
 
-## Notes
+## Deliverables
 
-- All simulations are Monte Carlo-based with configurable hedge frequency and volatility assumptions.
-- The Heston model is implemented using Euler discretization and closed-form pricing for comparison.
+- `MiniProject4.ipynb`: Fully annotated Jupyter Notebook with simulations, code, and analysis.
+- `functions.py`: Supporting library for pricing, Greeks, and simulation tools.
 
 ---
 
-## Author
+## Sample Visualizations
 
-*Submitted as part of the Erdös Institute Quantitative Finance Program.*
+**Delta Hedging Performance vs. Hedge Frequency (Toy Model)**  
+Shows how increasing hedge steps improves hedging accuracy.
 
+![Delta Frequency](images/toy_delta_hedging.png)
+
+**Delta vs. Sigma Hedging P&L (Toy Model)**  
+Illustrates how vega hedging enhances mean return and reduces risk.
+
+![Toy Sigma vs Delta](images/toy_comparison.png)
+
+**Heston Model - Simulated Paths**  
+Demonstrates realistic stochastic behavior in both price and volatility.
+
+![Heston Paths](images/heston_paths.png)
+
+**Heston Sigma Hedge vs. Closed-Form Price**  
+Monte Carlo results compared to analytical Heston solution.
+
+![Heston Sigma Hedge](images/heston_sigma_hedge.png)
+
+---
+
+## Key Takeaways
+
+- **Delta Hedging Alone is Incomplete**  
+  Under stochastic volatility, delta hedging misses risk from volatility shocks, leading to potential under- or over-hedging.
+
+- **Sigma (Vega) Hedging Improves Outcomes**  
+  Adding a call spread hedge significantly improves P&L distribution, especially when the sold option is overpriced (i.e., implied > realized vol).
+
+- **Hedge Frequency Matters**  
+  More frequent hedging reduces variance and left-tail risk. However, benefits diminish beyond ~50 rebalances/year.
+
+- **Heston Model Validates the Approach**  
+  Both hedging methods approximate Heston model pricing well, but sigma hedging provides slightly tighter convergence to the theoretical value.
