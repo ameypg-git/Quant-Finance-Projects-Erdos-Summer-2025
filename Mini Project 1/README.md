@@ -1,5 +1,5 @@
 
-# Portfolio Optimization Project
+# Mini Project 1 : Portfolio Optimization Project
 
 A comparative analysis of low-risk and high-risk investment strategies using historical market data and quantitative optimization techniques.
 
