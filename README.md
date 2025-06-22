@@ -1,8 +1,8 @@
-# Quant Finance Projects – Erdős Institute Summer 2025
+# Quantitative Finance Projects : Erdős Institute Summer 2025
 
-This repository contains a series of advanced projects developed as part of the **Erdős Institute’s 2025 Introduction to Quantitative Methods in Finance**. Each project applies real-world financial data, mathematical modeling, and programming techniques to explore practical questions in modern quantitative finance.
+This repository contains a series of mini projects developed as part of the **Erdős Institute’s 2025 Introduction to Quantitative Methods in Finance**. Each project applies real-world financial data, mathematical modeling, and programming techniques to explore practical questions in modern quantitative finance.
 
-These projects demonstrate core competencies in financial data analysis, statistical testing, derivative pricing, and risk management under uncertainty — with a focus on rigorous quantitative methods and computational implementation.
+These projects demonstrate core competencies in financial data analysis, statistical testing, derivative pricing, and risk management under uncertainty : with a focus on rigorous quantitative methods , data analysis and  computational implementation.
 
 ---
 
@@ -20,7 +20,7 @@ These projects demonstrate core competencies in financial data analysis, statist
 ---
 
 ### 2. Hypothesis Testing of Return Normality  
-**Goal:** Assess the assumption that asset log returns are normally distributed — a foundational concept in financial mathematics.  
+**Goal:** Assess the assumption that asset log returns are normally distributed : a foundational concept in financial mathematics.  
 - Tested normality of log returns for ETFs, stocks, and constructed portfolios.
 - Applied statistical tests (D’Agostino–Pearson) and QQ plots across different time windows.
 - Explored effects of volatility filtering, portfolio diversification, and asset selection.
@@ -42,7 +42,7 @@ These projects demonstrate core competencies in financial data analysis, statist
 ### 4. Delta and Sigma Hedging under Stochastic Volatility  
 **Goal:** Investigate the effectiveness of delta vs. vega (sigma) hedging under changing volatility conditions.  
 - Simulated asset paths under both a stepwise volatility model and the Heston stochastic volatility model.
-- Built delta-only and vega-neutral hedging strategies using call spreads.
+- Built delta only and vega neutral hedging strategies using call spreads.
 - Analyzed P&L distributions and hedge frequency effects across scenarios.
 - Compared simulated and theoretical prices for validation.
 
