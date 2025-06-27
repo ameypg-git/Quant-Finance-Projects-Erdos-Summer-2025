@@ -15,17 +15,17 @@ These projects demonstrate core competencies in financial data analysis, statist
 - Used `scipy.optimize.minimize` to generate optimized asset allocations under realistic constraints.
 - Evaluated results using annualized volatility, expected return, and diversification metrics.
 
-**Skills:** Portfolio theory, numerical optimization, data cleaning, visualization, real-market asset selection.
+**Skills:** Portfolio theory, numerical optimization, data cleaning, visualization, real market asset selection.
 
 ---
 
 ### 2. Hypothesis Testing of Return Normality  
 **Goal:** Assess the assumption that asset log returns are normally distributed : a foundational concept in financial mathematics.  
-- Tested normality of log returns for ETFs, stocks, and constructed portfolios.
-- Applied statistical tests (D’Agostino–Pearson) and QQ plots across different time windows.
-- Explored effects of volatility filtering, portfolio diversification, and asset selection.
+ Tested normality of log returns for ETFs, stocks, and constructed portfolios.
+ Applied statistical tests (D’Agostino–Pearson) and QQ plots across different time windows.
+ Explored effects of volatility filtering, portfolio diversification, and asset selection.
 
-**Skills:** Hypothesis testing, time-series diagnostics, statistical modeling, Python data science stack.
+**Skills:** Hypothesis testing, time series diagnostics, statistical modeling, Python data science stack.
 
 ---
 
