@@ -32,7 +32,7 @@ This project investigates the following key questions:
 - **Time Sensitivity:** Log returns may appear normally distributed during calm market periods but fail normality tests during volatile periods.
 - **Diversification Matters:** Broad based ETFs and well balanced portfolios tend to exhibit more normal like return distributions.
 - **Portfolio Effects:** Both low risk and high risk portfolios may pass normality tests in the short term, but diverge over longer horizons.
-- **Stock Universe Screening:** A small fraction of S&P 500 constituents exhibit return distributions that do not reject normality, offering candidates for Gaussian-based modeling.
+- **Stock Universe Screening:** A small fraction of S&P 500 constituents exhibit return distributions that do not reject normality, offering candidates for Gaussian based modeling.
 
 
 
