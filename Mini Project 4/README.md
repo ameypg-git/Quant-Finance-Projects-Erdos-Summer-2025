@@ -52,7 +52,7 @@ Demonstrates realistic stochastic behavior in both price and volatility.
 
 ![Heston Paths](images/heston_paths.png)
 
-**Heston Sigma Hedge vs. Closed-Form Price**  
+**Heston Sigma Hedge vs. Closed Form Price**  
 Monte Carlo results compared to analytical Heston solution.
 
 ![Heston Sigma Hedge](images/heston_sigma_hedge.png)
