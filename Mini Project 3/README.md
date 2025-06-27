@@ -1,4 +1,4 @@
-#  Mini Project 3 : Black-Scholes Option Pricing Analysis
+#  Mini Project 3 : Black Scholes Option Pricing Analysis
 
 This repository contains a Jupyter notebook that explores the behavior of **European call and put option prices** using the **Black Scholes model**. 
 
@@ -24,7 +24,7 @@ This project helps build intuition around **option sensitivity metrics** like **
 The assignment consists of four parts:
 
 ### **a)** Time Sensitivity of Call Options  
-- Visualize how the **Black-Scholes call option price** changes with time to expiration.  
+- Visualize how the **Black Scholes call option price** changes with time to expiration.  
 - Interpret how the **rate of change** (Theta) behaves as expiration approaches.
 
 ### **b)** Spot Price Sensitivity of Call Options  
