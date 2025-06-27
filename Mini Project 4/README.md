@@ -35,30 +35,6 @@ To understand how **time varying volatility** impacts the effectiveness of diffe
 
 ---
 
-## Sample Visualizations
-
-**Delta Hedging Performance vs. Hedge Frequency (Toy Model)**  
-Shows how increasing hedge steps improves hedging accuracy.
-
-![Delta Frequency](images/toy_delta_hedging.png)
-
-**Delta vs. Sigma Hedging P&L (Toy Model)**  
-Illustrates how vega hedging enhances mean return and reduces risk.
-
-![Toy Sigma vs Delta](images/toy_comparison.png)
-
-**Heston Model  Simulated Paths**  
-Demonstrates realistic stochastic behavior in both price and volatility.
-
-![Heston Paths](images/heston_paths.png)
-
-**Heston Sigma Hedge vs. Closed Form Price**  
-Monte Carlo results compared to analytical Heston solution.
-
-![Heston Sigma Hedge](images/heston_sigma_hedge.png)
-
----
-
 ## Key Takeaways
 
 - **Delta Hedging Alone is Incomplete**  
